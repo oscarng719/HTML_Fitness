@@ -1,0 +1,131 @@
+body {
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+background-color: #6899D3;
+}
+
+.banner {
+margin: 25px auto 20px auto;
+text-align: center;
+background-color: #D0E4FE;
+width: 800px;
+height: 200px;
+border: 2px solid black;
+}
+
+.banner h1 {
+margin-top: 40px;
+}
+
+.banner span {
+font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+color: #211E1E;
+font-size: 200%;
+}
+
+img {
+height: 200px;
+width: 400px;
+display: inline;
+float: right;
+padding: 0px;
+}
+
+div.subset {
+background-color:#D0E4FE;
+margin-left: auto;
+margin-left: auto;
+width: auto;
+height: auto;
+line-height: 26px;
+border: 2px solid black;
+padding: 5px;
+}
+
+label {
+width: 100px;
+font-size: 18px;
+float: left;
+margin-top: 10px;
+}
+
+label.radio {
+margin-top: 5px;
+}
+
+label.long {
+width: 150px;
+}
+
+input {
+width: 170px;
+margin-bottom: 5px;
+margin-top: 12px;
+border: 1px solid #CCC;
+}
+
+input[type="radio"] {
+width: 20px;
+}
+
+input[type="submit"] {
+background-color: #dcdcdc;
+border: 1px solid #666;
+color:#000;
+text-decoration:none;
+width: auto;
+}
+
+input.nav{
+padding: 2px;
+width: 150px;
+margin-left: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+background: transparent;
+font-size: 16px;
+border: none;
+border-bottom: thick solid black;
+}
+
+input.nav:hover{
+	color: #D0E4FE;
+	border-bottom: thick solid #D0E4FE;
+}
+
+table {
+border-collapse: collapse;
+width: 50%;
+padding: 10px;
+}
+
+table,th,td {
+border: 1px solid #1144AA;
+text-align:center;
+}
+
+tr.header {
+background-color: #A5B0BF;
+}
+
+tr.even {
+background-color: #FFF4CD;
+}
+
+tr.odd {
+background-color: #BFB9A3;
+}
+
+br {
+clear: both;
+}
+
+span.result {
+font-size: 20px;
+}
+
+.error{
+color: red;
+}

@@ -1,0 +1,6 @@
+1. open php.ini
+2. Search for extension=php_openssl.dll
+3. The initial will look like this ;extension=php_openssl.dll
+4. Remove the ';' and it will look like this extension=php_openssl.dll
+5. If you can't find the extension=php_openssl.dll, add this line extension=php_openssl.dll.
+6. Then restart.

@@ -1,0 +1,74 @@
+body{
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+background-color: #6899D3;
+}
+
+.banner {
+margin: 25px auto 20px auto;
+text-align: center;
+background-color: #D0E4FE;
+width: 800px;
+height: 200px;
+border: 2px solid black;
+}
+
+.banner h1 {
+margin-top: 40px;
+}
+
+.banner span {
+font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+color: #211E1E;
+font-size: 200%;
+}
+
+img {
+height: 200px;
+width: 400px;
+display: inline;
+float: right;
+padding: 0px;
+}
+
+div.login{
+background-color:#d0e4fe;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+height: 120px;
+line-height: 26px;
+border: 2px solid black;
+}
+
+label{
+width: 100px;
+font-size: 18px;
+float: left;
+margin-left: 10px; 
+margin-top: 10px;
+}
+
+input{
+width:170px;
+margin-bottom:5px;
+margin-top: 12px;
+border:1px solid #CCC;
+
+}
+
+input[type="submit"]{
+padding: 2px;
+width: 100px;
+margin-left: 100px;
+margin-top: 10px;
+background-color: #dcdcdc;
+border: 1px solid #666;
+color:#000;
+text-decoration:none;
+}
+
+.error{
+color: red;
+}
